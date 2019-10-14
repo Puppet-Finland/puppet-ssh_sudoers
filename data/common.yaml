@@ -1,0 +1,4 @@
+---
+ssh_sudoers::target::admingroup: 'root'
+ssh_sudoers::target::script_basedir: '/usr/local/bin'
+ssh_sudoers::target::sudoersd: '/etc/sudoers.d'

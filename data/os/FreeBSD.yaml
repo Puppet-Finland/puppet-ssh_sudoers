@@ -1,0 +1,3 @@
+---
+ssh_sudoers::target::admingroup: 'wheel'
+ssh_sudoers::target::sudoersd: '/usr/local/etc/sudoers.d'
