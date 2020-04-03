@@ -1,11 +1,15 @@
-# @summary Setup Bolt controller
+# @summary Setup a SSH controller
 #
-# Configure a node to be able to run Puppet Bolt and run commands or
-# tasks on target hosts via SSH. This class does not setup any system
-# users.
+# Configure a node so that is able to run Puppet Bolt, Ansible, Fabric or
+# similar on target hosts via SSH. This class does not setup any system users.
 #
-# @example
-#   include ssh_sudoers::controller
+# @param user
+#   The user for whom to install the private key
+# @param ssh_private_key_content
+#   Contents of the private key (e.g. string in eyaml). Mutually exclusive with
+#   ssh_private_key_source.
+# @param ssh_private_key_source
+#   Source of the private key. Mutually exclusive with ssh_private_key_content. 
 #
 class ssh_sudoers::controller
 (

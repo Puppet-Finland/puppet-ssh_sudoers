@@ -2,9 +2,9 @@
   "name": "puppetfinland-ssh_sudoers",
   "version": "0.1.0",
   "author": "Puppet-Finland team",
-  "summary": "",
+  "summary": "Setup SSH and sudo for running maintenance commands",
   "license": "BSD-2-Clause",
-  "source": "",
+  "source": "https://github.com/Puppet-Finland/puppet-ssh_sudoers.git",
   "dependencies": [
 
   ],
